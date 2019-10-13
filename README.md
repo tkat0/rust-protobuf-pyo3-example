@@ -2,7 +2,7 @@
 
 Example using protobuf for I/F of pyo3
 
-# Directory structures
+## Directory structures
 
 ```bash
 ├── main.py  # python test script
@@ -28,13 +28,13 @@ Example using protobuf for I/F of pyo3
     └── lib.rs
 ```
 
-# Build
+## Build
 
 ```bash
 $ python setup.py develop
 ```
 
-# Testing
+## Testing
 
 ```bash
 $ python main.py
