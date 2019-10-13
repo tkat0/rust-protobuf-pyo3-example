@@ -1,0 +1,20 @@
+[package]
+name = "rust-protobuf-pyo3-example"
+version = "0.1.0"
+authors = ["tkat0 <tkato.dev@gmail.com>"]
+edition = "2018"
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+protobuf = "2"
+pyo3 = { version = "0.8", features = ["extension-module"]}
+
+[build-dependencies]
+walkdir = "2"
+glob = "0.3"
+protoc-rust = "2"
+
+[lib]
+crate-type = ["cdylib"]
