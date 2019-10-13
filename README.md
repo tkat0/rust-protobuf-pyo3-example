@@ -7,22 +7,23 @@ Example using protobuf for I/F of pyo3
 ```bash
 ├── main.py  # python test script
 ├── proto  # protobuf definitions
-│   ├── function_a
-│   │   └── v1
-│   ├── function_b
-│   │   └── v1
-│   └── src
-│       └── generated
+│   └── function_a
+│       └── v1
+│           └── function.proto
 ├── proto_example  # python package
 │   ├── __init__.py
 │   └── generated  # python protobuf client
 │       ├── __init__.py
-│       ├── function_a
-│       └── function_b
+│       └── function_a
+│           └── v1
+│               └── function_pb2.py
 └── src  # rust crate
     ├── generated  # rust protobuf client
     │   ├── function_a
-    │   ├── function_b
+    │   │   ├── mod.rs
+    │   │   └── v1
+    │   │       ├── function.rs
+    │   │       └── mod.rs
     │   └── mod.rs
     └── lib.rs
 ```

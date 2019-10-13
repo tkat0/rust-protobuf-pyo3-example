@@ -255,17 +255,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "python-proto-example"
-version = "0.1.0"
-dependencies = [
- "glob 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "protobuf 2.8.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "protoc-rust 2.8.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "pyo3 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "walkdir 2.2.9 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "quote"
 version = "1.0.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -337,6 +326,17 @@ version = "0.5.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "winapi 0.3.8 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "rust-protobuf-pyo3-example"
+version = "0.1.0"
+dependencies = [
+ "glob 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "protobuf 2.8.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "protoc-rust 2.8.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "pyo3 0.8.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "walkdir 2.2.9 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
