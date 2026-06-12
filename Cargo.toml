@@ -9,7 +9,7 @@ publish = false
 
 [dependencies]
 protobuf = "2"
-pyo3 = { version = "0.8", features = ["extension-module"]}
+pyo3 = { version = "0.29", features = ["extension-module"]}
 
 [build-dependencies]
 walkdir = "2"
